@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    padding: 30px;
+}
+
+h1 {
+    text-align: center;
+    color: #1F4E79;
+}
+
+/* Box Model pada Kartu Produk */
+.kartu-produk {
+    box-sizing: border-box;   /* width sudah termasuk padding & border */
+    width: 250px;
+    padding: 16px;
+    border: 2px solid #1F4E79;
+    margin: 15px auto;        
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.kartu-produk h2 {
+    margin: 0 0 8px 0;
+    font-size: 18px;
+    color: #333333;
+}
+
+.harga {
+    color: #2E75B6;
+    font-weight: bold;
+    font-size: 16px;
+}
