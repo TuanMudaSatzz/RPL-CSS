@@ -1,0 +1,72 @@
+/* Pengaturan Dasar */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fdf6ec;
+    color: #333333;
+    margin: 0;
+    padding: 0 20px 40px;
+}
+
+/* Grouping Selector  */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #7a3b12;
+}
+
+/* Judul Halaman */
+h1 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Descendant Selector */
+nav a {
+    text-decoration: none;
+    color: #7a3b12;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+/* Pseudo-class :hover pada tautan navigasi */
+nav a:hover {
+    color: white;
+    background-color: #7a3b12;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+nav {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Descendant Selector pada daftar menu */
+.menu li {
+    list-style: none;
+    padding: 8px 0;
+    border-bottom: 1px dashed #cccccc;
+}
+
+.nama-menu {
+    font-weight: bold;
+    color: rgb(122, 59, 18);
+}
+
+/* Tombol dengan format warna rgb() */
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: rgb(122, 59, 18);
+    color: white;
+    cursor: pointer;
+}
+
+/* Pseudo-class :hover pada tombol dengan format rgba() */
+button:hover {
+    background-color: rgba(122, 59, 18, 0.7);
+}
